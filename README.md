@@ -1,5 +1,5 @@
 # BasicEnidArduinoValidationExchangeRrrr
-An interface from [ENID](https://github.com/mackiea/ExternalNabuInterfaceDevice) to the [Adafruit Boarduino](https://www.gravitech.us/usbboacokitv.html).
+An interface from the [NABU](https://nabu.ca/) [ENID](https://github.com/mackiea/ExternalNabuInterfaceDevice) to the [Adafruit Boarduino](https://www.gravitech.us/usbboacokitv.html).
 
 ![Bottom](/Bottom.png)
 ![Top](/Top.png)
@@ -18,4 +18,11 @@ Because I still have a half-dozen Boarduino boards from an incomplete project fr
 ![pcb](/Beaver.PCB.png)
 
 ## Bill Of Materials?
-This board, a male DB-25 vertical connector, a bunch of female and male .1"/2.54mm-pitch connectors, a Boarduino, and a tasty banana. Eat the banana, rethink your life choices, then slap this together!
+|Part|
+|----|
+|[Male DB-25 connector](https://www.digikey.ca/en/products/detail/adam-tech/DB25-PT-1/9832353?so=80268516&content=productdetail_CA&mkt_tok=MDI4LVNYSy01MDcAAAGKN8fie8Y-7Hh2L_QOUR0o5PEybW02wXRuSnJHNaHE-498B2KL8l0akRq-CO76D-x000gPta5qhzrv-7rck9JXzVGoOTc-avJm5PfcgFbQ)|
+|2.54mm male & female headers|
+|Boarduino|
+|Banana|
+
+Eat the banana, rethink your life choices, then slap this together!
