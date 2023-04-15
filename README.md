@@ -14,6 +14,7 @@ An interface from the [NABU](https://nabu.ca/) via [ENID](https://github.com/mac
 
 ## Why Boarduino? It's obsolete, deprecated, and old!
 Because I still have a half-dozen Boarduino boards from an incomplete project from years back. I don't recommend using this unless you're in a similar situation. I will probably work on a standard ENID Arduino shield later on.
+I *am* working on a Raspberry Pico interface -- [the INREPAIR](https://github.com/mackiea/InformationalNabuRemoteEnidPicoActiveInterfaceRelay).
 
 ![pcb](/Beaver.PCB.png)
 
