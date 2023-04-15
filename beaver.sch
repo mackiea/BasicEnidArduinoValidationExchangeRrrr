@@ -27,59 +27,59 @@ Text GLabel 3900 2450 3    50   Input ~ 0
 ADDRESS_3
 Text GLabel 3300 4250 2    50   Input ~ 0
 RESET
-Text GLabel 4800 3800 2    50   Input ~ 0
+Text GLabel 4750 1600 2    50   Input ~ 0
 AUDIO
-Text GLabel 4200 3600 2    50   Input ~ 0
+Text GLabel 4150 1400 2    50   Input ~ 0
 3.58MhzClock
-Text GLabel 5350 3200 0    50   Input ~ 0
+Text GLabel 5300 1000 0    50   Input ~ 0
 INTERRUPT_REQUEST
-Text GLabel 5350 3400 0    50   Input ~ 0
+Text GLabel 5300 1200 0    50   Input ~ 0
 INTERRUPT_ACKNOWLEDGE
-Text GLabel 5350 3600 0    50   Input ~ 0
+Text GLabel 5300 1400 0    50   Input ~ 0
 3.58MhzClock
-Text GLabel 5350 3800 0    50   Input ~ 0
+Text GLabel 5300 1600 0    50   Input ~ 0
 AUDIO
-Text GLabel 5350 4000 0    50   Input ~ 0
+Text GLabel 5300 1800 0    50   Input ~ 0
 CARD_SELECT
-Text GLabel 5350 4200 0    50   Input ~ 0
+Text GLabel 5300 2000 0    50   Input ~ 0
 ADDRESS_0
-Text GLabel 5350 4400 0    50   Input ~ 0
+Text GLabel 5300 2200 0    50   Input ~ 0
 ADDRESS_1
-Text GLabel 5350 4600 0    50   Input ~ 0
+Text GLabel 5300 2400 0    50   Input ~ 0
 ADDRESS_2
-Text GLabel 5350 4800 0    50   Input ~ 0
+Text GLabel 5300 2600 0    50   Input ~ 0
 ADDRESS_3
-Text GLabel 5350 5000 0    50   Input ~ 0
+Text GLabel 5300 2800 0    50   Input ~ 0
 1.79MhzClock
-Text GLabel 5350 5200 0    50   Input ~ 0
+Text GLabel 5300 3000 0    50   Input ~ 0
 WRITE
-Text GLabel 5350 5400 0    50   Input ~ 0
+Text GLabel 5300 3200 0    50   Input ~ 0
 READ
-Text GLabel 5350 5600 0    50   Input ~ 0
+Text GLabel 5300 3400 0    50   Input ~ 0
 IO_REQUEST
-Text GLabel 5350 3300 0    50   Input ~ 0
+Text GLabel 5300 1100 0    50   Input ~ 0
 WAIT_REQUEST
-Text GLabel 5350 3500 0    50   Input ~ 0
+Text GLabel 5300 1300 0    50   Input ~ 0
 RESET
-Text GLabel 5350 3700 0    50   Input ~ 0
+Text GLabel 5300 1500 0    50   Input ~ 0
 DATA_0
-Text GLabel 5350 3900 0    50   Input ~ 0
+Text GLabel 5300 1700 0    50   Input ~ 0
 DATA_1
-Text GLabel 5350 4100 0    50   Input ~ 0
+Text GLabel 5300 1900 0    50   Input ~ 0
 DATA_2
-Text GLabel 5350 4300 0    50   Input ~ 0
+Text GLabel 5300 2100 0    50   Input ~ 0
 DATA_3
-Text GLabel 5350 4500 0    50   Input ~ 0
+Text GLabel 5300 2300 0    50   Input ~ 0
 DATA_4
-Text GLabel 5350 4700 0    50   Input ~ 0
+Text GLabel 5300 2500 0    50   Input ~ 0
 DATA_5
-Text GLabel 5350 4900 0    50   Input ~ 0
+Text GLabel 5300 2700 0    50   Input ~ 0
 DATA_6
-Text GLabel 5350 5100 0    50   Input ~ 0
+Text GLabel 5300 2900 0    50   Input ~ 0
 DATA_7
-Text GLabel 5350 5300 0    50   Input ~ 0
+Text GLabel 5300 3100 0    50   Input ~ 0
 +5V_1
-Text GLabel 5350 5500 0    50   Input ~ 0
+Text GLabel 5300 3300 0    50   Input ~ 0
 GROUND_1
 Text GLabel 6450 3150 1    50   Input ~ 0
 +5V_1
@@ -88,13 +88,13 @@ GROUND_1
 $Comp
 L Connector:DB25_Male ENID1
 U 1 1 64040DFF
-P 5650 4400
-F 0 "ENID1" H 5830 4402 50  0000 L CNN
-F 1 "DB25_Male_MountingHoles" H 5830 4311 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-25_Male_Vertical_P2.77x2.84mm_MountingHoles" H 5650 4400 50  0001 C CNN
-F 3 " ~" H 5650 4400 50  0001 C CNN
-	1    5650 4400
-	1    0    0    -1  
+P 5600 2200
+F 0 "ENID1" H 5780 1600 50  0000 L CNN
+F 1 "DB25_Male_MountingHoles" H 5780 1500 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-25_Male_Vertical_P2.77x2.84mm_MountingHoles" H 5600 2200 50  0001 C CNN
+F 3 " ~" H 5600 2200 50  0001 C CNN
+	1    5600 2200
+	1    0    0    1   
 $EndComp
 Text Notes 7400 7500 0    50   ~ 0
 Basic ENID Arduino Validation ExchangeRrrr
@@ -102,10 +102,10 @@ Text Notes 10650 7650 0    50   ~ 0
 1.1
 Text Notes 8150 7650 0    50   ~ 0
 6 April 2023
-Text GLabel 4200 5000 2    50   Input ~ 0
+Text GLabel 4150 2800 2    50   Input ~ 0
 1.79MhzClock
-NoConn ~ 4200 5000
-NoConn ~ 4800 3800
+NoConn ~ 4150 2800
+NoConn ~ 4750 1600
 $Comp
 L Connector:Conn_01x06_Female BOARD_ADDRESS1
 U 1 1 6401FF74
@@ -203,18 +203,7 @@ Wire Wire Line
 NoConn ~ 3550 1750
 NoConn ~ 3650 1750
 NoConn ~ 3750 1750
-NoConn ~ 4200 3600
-$Comp
-L Connector:Conn_01x10_Female BOARD_SETTINGS1
-U 1 1 64022525
-P 2900 1950
-F 0 "BOARD_SETTINGS1" V 2050 1450 50  0000 C CNN
-F 1 "Conn_01x10_Female" V 2950 1900 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 2900 1950 50  0001 C CNN
-F 3 "~" H 2900 1950 50  0001 C CNN
-	1    2900 1950
-	0    1    1    0   
-$EndComp
+NoConn ~ 4150 1400
 $Comp
 L Connector:Conn_01x02_Male RESET_FROM_NABU1
 U 1 1 640647AF
@@ -287,4 +276,15 @@ NoConn ~ 3150 3750
 Text GLabel 3150 3850 0    50   Input ~ 0
 AREF
 NoConn ~ 3150 3850
+$Comp
+L Connector:Conn_01x10_Female BOARD_SETTINGS1
+U 1 1 64022525
+P 2900 1950
+F 0 "BOARD_SETTINGS1" V 2000 2000 50  0000 C CNN
+F 1 "Conn_01x10_Female" V 2950 1900 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 2900 1950 50  0001 C CNN
+F 3 "~" H 2900 1950 50  0001 C CNN
+	1    2900 1950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
